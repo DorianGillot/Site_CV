@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <meta
+      name="keyword"
+      content="Dorian Gillot, portfolio, javascript, étudiant, developer, ingénieur"
+    />
+    <meta
+      name="description"
+      content="étudiant en école d'ingénieur à l'ESAIP en cybersécurité."
+    />
+    <meta property="og:title" content="Dorian Gillot | étudiant et dev" />
+    <meta
+      property="og:description"
+      content="étudiant en école d'ingénieur à l'ESAIP en cybersécurité."
+    />
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/46205282?s=400&u=e45c30c63d63d42eb50136cca684ba72bba1741b&v=4"
+    />
+    <meta
+      property="og:url"
+      content="https://doriangillot.github.io/Site_CV/"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script defer src="script.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <script
+      defer
+      src="https://code.iconify.design/2/2.0.3/iconify.min.js"
+    ></script>
+    <title>Dorian Gillot | Site CV</title>
+  </head>
+  <body>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- header -->
+    <header id="home">
+      <nav id="nav" aria-label="Main menu">
+        <div class="logo">
+          <h3>Dorian <span>Gillot</span></h3>
+        </div>
+    
+        <ul class="links">
+          <li>
+            <a href="#home" class="link"><i class="fas fa-home"></i> Accueil</a>
+          </li>
+          <li>
+            <a href="#about" class="link"><i class="fas fa-user"></i> À propos</a>
+          </li>
+          <li>
+            <a href="#skills" class="link"><i class="fas fa-tools"></i> Compétence</a>
+          </li>
+          <li>
+            <a href="#projects" class="link"><i class="fab fa-codepen"></i> Projets</a>
+          </li>
+          <li>
+            <a href="#formation" class="link"><i class="fas fa-graduation-cap"></i> Ma formation</a>
+          </li>
+          <li>
+            <a href="#experience" class="link"><i class="fas fa-tools"></i> Mes expériences pros</a>
+          </li>
+          <li>
+            <a href="#benevole" class="link"><i class="fas fa-user"></i> Mes engagements bénévoles</a>
+          </li>
+          <li>
+            <!-- DARK MODE TOGGLE -->
+            <div class="color-toggle-container">
+              <input type="checkbox" id="color-toggle-input" />
+              <label for="color-toggle-input" class="color-toggle-label">
+                <div class="color-toggle"></div>
+              </label>
+            </div>
+          </li>
+        </ul>
+    
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    
+      <div id="image_cv">
+        <img
+          src="./images/image_cv.jpg"
+          height="350px"
+          width="350px"
+          alt="guy with laptop on a desk"
+          loading="lazy"
+        />
+      </div>
+    
+      <!-- HERO SECTION -->
+      <div class="hero">
+        <h1 class="h1">Bonjour, je suis un <span class="animate"></span></h1>
+        <p class="student" id="student">
+          Etudiant avec un intérêt pour l'informatique et la sécurité.
+        </p>
+        <div class="hero-btns">
+          <a href="#about" class="about" id="about-btn">À propos</a>
+          <a href="#projects" class="projects-btn" id="projects-btn">Projets</a>
+          <a href="Dorian-GILLOT.pdf" class="download-cv" id="download-cv-btn" target="_blank">Télécharger mon CV</a>
+        </div>
+      </div>
+    
+      <!-- SOCIAL LINKS -->
+      <div class="socials" id="socials">
+        <ul>
+          <li>
+            <a
+              href="https://fr.linkedin.com/in/dorian-gillot-0b2a241a0"
+              target="_blank"
+              class="linkedin"
+              aria-label="LinkedIn"
+              rel="noopener"
+              >LinkedIn<i class="fi-snsuxl-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="mailto:Dorian.gillot@outlook.fr"
+              target="_blank"
+              class="email"
+              aria-label="Email"
+              rel="noopener"
+              >Email<i class="fi-xwsuxl-envelope-solid"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    
+    
+
+    <main>
+      <!-- ABOUT ME -->
+      <section id="about">
+        <div class="container-about">
+          <div class="about-me" id="about-me">
+            <h2><span>À </span> propos</h2>
+            <h3>Présentation</h3>
+            <p>
+                Je m'appelle Dorian Gillot, étudiant en deuxième année de cycle ingénieur en cybersécurité à l'Esaip, à Saint Barthélémy d'Anjou. Passionné par les technologies de l'information et de la sécurité, je contribue également au service de propreté publique de la Ville d'Angers le week-end, en m'occupant du nettoyage des rues du centre-ville et des places de marché.
+            </p>
+            <p>
+                Mon parcours professionnel inclut des expériences chez ERAM et Hutchinson. Chez ERAM, j'ai travaillé comme manutentionnaire, gérant la préparation et le conditionnement des commandes à Saint Pierre Montlimart. Chez Hutchinson, en tant que stagiaire, j'ai participé à la préparation de postes informatiques pour les employés et les machines, ainsi qu'à la mise à jour des logiciels et des bases de données (GLPI).
+            </p>
+            <p>
+                En plus de mes compétences <a href="#skills">techniques</a>, je suis reconnu pour ma conscience professionnelle, ma fiabilité et ma méthodologie de travail. Mon approche empathique et ma capacité à rester ouvert d'esprit et imperturbable me permettent d'aborder sereinement de nouveaux défis.
+            </p>
+            <p>
+              Concernant mes compétences, je l'ai acquises via différents <a href="#projects">projets</a> personnels ou d'étude ainsi que mes <a href="#experience">expériences professionnelles</a> passées.
+            </p>
+            <h3>Projet professionnel</h3>
+            <p>
+              Je vise un poste d'ingénieur en sécurité dans le milieu des jeux vidéo. Je souhaite avoir un poste dans ce secteur pour être proche d'une de mes passions. La grandeur de l'entreprise m'importe peu, le plus important sera de fournir un travail de qualité pour maintenir la sécurité du ou des jeux afin de maintenir une expérience agréable pour chacun des utilisateurs.
+            </p>
+            <h3>Vision dans 5 ans</h3>
+            <p>
+              Après être passé par une entreprise dans le secteur du jeu vidéo en tant qu'ingénieur cybersécurité. Je souhaiterais être chef de projet pour cette entreprise. Pour guider au mieux une équipe de personne et ainsi maintenir, améliorer la sécurité. Cela me permettrait, et je l'espère, de me maintenir informer sur les nouvelles techniques utilisé par les fraudeurs.  
+            </p>
+            <h3>Valeurs et anti-valeurs</h3>
+            <p>
+              J'ai eu un attrait pour la cybercriminalité très jeune, j'ai été victime de 3 délits cybercriminels. Cela me rend d'autant plus attaché aux valeurs éthiques et moral des activité sur Internet. De plus, j'attache beaucoup d'importance à l'amitié et la franchise ce qui est la base de mes interactions socio-professionnelle.
+            </p>
+            <p>
+              À l'inverse, je me détache de l'hypocrisie. Évidemment, à la suite de mes aventures sur Internet, je m'oppose à l'injustice et à la malveillance.
+            </p>
+          </div>
+          <div class="student-img">
+            <img
+              src="./images/hello.svg"
+              height="250px"
+              width="350px"
+              alt="guy with laptop on a desk"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="header" id="header">
+          <h2>Mes <span>Compétences</span></h2>
+        </div>
+
+        <div class="container lazy-background" id="container">
+          <div class="languages">
+            <p><i class="fas fa-code"></i></p>
+            <h3>Languages</h3>
+            <span>JS<span
+                class="iconify"
+                data-icon="logos:javascript"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="logos-typescript-icon"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span>Python<span
+                class="iconify"
+                data-icon="logos:python"
+                data-inline="false"
+                ></span
+            ></span>
+            <br />
+            <span>ASM <span class="iconify" data-icon="simple-icons:assemblyscript"></span
+            ></span>
+            <br />
+            <span
+              >SQL <span
+                class="iconify"
+                data-icon="logos:mysql"
+              ></span
+            ></span>
+            <br />
+            <span
+              >HTML/CSS/SASS<span
+                class="iconify"
+                data-icon="logos:html-5"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="logos:css-3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="logos:sass"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span>C++
+              <span
+                class="iconify"
+                data-icon="logos:c-plusplus"
+                data-inline="false"
+              ></span>
+          </div>
+
+          <div class="frameworks">
+            <p><i class="fas fa-book-reader"></i></p>
+            <h3>Frameworks/Libraries/Databases</h3>
+            <span
+              >React.js
+              <span
+                class="iconify"
+                data-icon="logos:react"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Node.js/Express.js
+              <span
+                class="iconify"
+                data-icon="logos:nodejs-icon"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="simple-icons:express"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >MySQL
+              <span
+                class="iconify"
+                data-icon="logos:mysql"
+              ></span
+            ></span>
+            <br />
+            <span
+              >GUI
+              <span
+                class="iconify"
+                data-icon="logos:qt"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >jQuery
+              <span
+                class="iconify"
+                data-icon="bx:bxl-jquery"
+                data-inline="false"
+              ></span>
+            </span>
+          </div>
+
+          <div class="technologies">
+            <p><i class="fas fa-tools"></i></p>
+            <h3>Technologies</h3>
+            <span
+              >Git
+              <span
+                class="iconify"
+                data-icon="logos:git-icon"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span>
+              Android Studio
+              <span
+                class="iconify"
+                data-icon="logos:android-studio"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Linux <span class="iconify" data-icon="logos:linux-tux"></span
+            ></span>
+            <br />
+            <span
+              >Canva
+              <span
+                class="iconify"
+                data-icon="cib:canva"
+                style="color: #34cceb"
+              ></span
+            ></span>
+            <br />
+            <span
+              >Microsoft
+              <span
+                class="iconify"
+                data-icon="logos:microsoft"
+                style="color: #ab34eb"
+              ></span
+            ></span>
+          </div>
+
+          <div class="Humaines">
+            <p><i class="fas fa-user"></i></p>
+            <h3>Humaines</h3>
+            <span
+              >Empathique
+            </span>
+            <br />
+            <span>
+              Conscience professionnelle
+            </span>
+            <br />
+            <span
+              >Fiable 
+            </span>
+            <br />
+            <span
+              >Méthodique
+              </span>
+            <br />
+            <span
+              >Imperturbable
+              
+            </span>
+            <br />
+            <span
+              >autonome
+              
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT SHOWCASE -->
+      <section id="projects">
+        <div class="header" id="header">
+          <h2>Mes <span>Projets</span></h2>
+        </div>
+
+        <div class="container reveal lazy-background">
+          <div class="card lazy-background" id="card">
+            <div class="card-img card13"></div>
+            <div class="card-text">
+              <h2>JARVIS</h2>
+              <p>Assistant vocal</p>
+              <br />
+              <p class="made-with">
+                Fait avec :
+                <span
+                  class="iconify"
+                  data-icon="logos:python"
+                  data-inline="false"
+                ></span>
+              <br />
+              <br>
+              <br>
+              <p>December 2023</p>
+            </div>
+            <div class="card-buttons">
+              <a
+                href="mettre un lien youtube"
+                target="_blank"
+                class="demo"
+                ><i class="far fa-eye"></i> Demo</a
+              >
+              <a
+                href="poster sur github et mettre un lien"
+                target="_blank"
+                class="code"
+                ><i class="fas fa-code"></i> Code</a
+              >
+            </div>
+          </div>
+
+          <div class="card lazy-background" id="card">
+            <div class="card-img card12"></div>
+            <div class="card-text">
+              <h2>ChatBot ESAIP</h2>
+              <p>chatbot pour l'ESAIP spécialiser sur l'ESAIP</p>
+              <br />
+              <p class="made-with">
+                Fait avec :
+                <span
+                  class="iconify"
+                  data-icon="logos:python"
+                  data-inline="false"
+                ></span>
+                <span
+                  class="iconify"
+                  data-icon="logos:hugging-face"
+                  data-inline="false"
+                ></span>
+                <span
+                  class="iconify"
+                  data-icon="logos:google-colab"
+                  data-inline="false"
+                ></span>
+              </p>
+              <br />
+              <p>Avril 2024</p>
+            </div>
+            <div class="card-buttons">
+              <a
+                href="https://members-only12.herokuapp.com/"
+                target="_blank"
+                class="demo"
+                ><i class="far fa-eye"></i> Demo</a
+              >
+              <a
+                href="https://github.com/SultanBadri/members-only"
+                target="_blank"
+                class="code"
+                ><i class="fas fa-code"></i> Code</a
+              >
+            </div>
+          </div>
+
+          <div class="card lazy-background" id="card">
+            <div class="card-img card11"></div>
+            <div class="card-text">
+              <h2>Cheat menu</h2>
+              <p>Logiciel de triche pour le jeu assault cube</p>
+              <br />
+              <p class="made-with">
+                Fait avec :
+                <span
+                  class="iconify"
+                  data-icon="logos:c-plusplus"
+                  data-inline="false"
+                ></span>
+                <span
+                  class="iconify"
+                  data-icon="simple-icons:assemblyscript"
+                  data-inline="false"
+                ></span>
+              </p>
+              <br />
+              <p>En phase de développement et d'amélioration</p>
+            </div>
+            <div class="card-buttons">
+              <a
+                href="https://whispering-island-03847.herokuapp.com/"
+                target="_blank"
+                class="demo"
+                ><i class="far fa-eye"></i> Demo</a
+              >
+              <a
+                href="https://github.com/SultanBadri/inventory-application"
+                target="_blank"
+                class="code"
+                ><i class="fas fa-code"></i> Code</a
+              >
+            </div>
+          </div>
+      </section>
+
+      <!-- formation -->
+      <section id="formation">
+        <div class="container-formation">
+          <div class="formation" id="formation">
+            <h2>Ma <span> Formation</span></h2>
+              <li>
+                <h3>2024</h3>
+                <p>Esaip (école d’ingénieurs à Saint Barthélémy d’Anjou (49))</p>
+                <p>En 2ème année du cycle ingénieur.</p>
+              </li>
+              <li>
+                <h3>2023</h3>
+                <p>TOEIC (890/990) B2 avancé</p>
+              </li>
+              <li>
+                <h3>2019</h3>
+                <p>Baccalauréat Série S option ISN (informatique) - Lycée Mongazon (49)</p>
+                <p>TOEFL (740/990) B1 intermédiaire</p>
+              </li>
+          </div>
+          <div class="student-img">
+            <img
+              src="./images/formation.jpg"
+              height="250px"
+              width="350px"
+              alt="guy with laptop on a desk"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section id="experience">
+        <div class="container-experience">
+          <div class="experience" id="experience">
+            <h2><span>Mes </span> experiences <span>professionnelles</span></h2>
+            <li>
+              <h3>Ville d'Angers, Service propreté publique</h3>
+              <p>25 mois, de septembre 2021 à décembre 2024 (les week-ends)</p>
+              <p>Nettoyage des rues du centre ville d'Angers, changement des poubelles ainsi que le nettoyage des places de marché</p>
+              <br>
+              <p>J'ai pu y acquérir des compétences comme la <B>rigueur</B> et la <B>discipline</B> avec le maintient de la propreté, dans la ville et avec les outils de travail. Ces compétences acquises me permettent d'être efficace lorsque je suis sous pression.</p>
+            </li>
+            <li>
+              <h3>Ville d'Angers / Angers Loire métropole, Service propreté publique</h3>
+              <p>4 semaines en août 2020. 4 semaines en août 2021. 8 semaines en juillet et août 2022. 4 semaines en juillet 2023</p>
+              <p>Nettoyage et vérification du bon fonctionnement des toilettes publiques.</p>
+              <p>Nettoyage, entretien et vérification du bon fonctionnement, du matériel, des camps d'accueil des gens du voyage.</p>
+            </li>
+            <li>
+              <h3>ERAM, manutentionnaire</h3>
+              <p>5 semaines en juillet/août 2019.</p>
+              <p>Préparation et conditionnement des commandes Saint Pierre Montlimart (49).</p>
+              <br>
+              <p>Ce travail a été ma première expérience professionnelle, elle ne s'est pas avérée être positive. Mis à part l'expérience de la découverte du milieu usinier, j'ai pu y découvrir ce qu'était un mauvais chef (humainement parlant)</p>
+            </li>
+            <li>
+              <h3>Hutchinson, stagiaire</h3>
+              <p>4 semaines en juin 2021</p>
+              <p>Préparation de postes informatiques destinés aux employés et aux machines.</p>
+              <p>Mise à jour des logiciels informatiques ainsi que des bases de données (GLPI).</p>
+              <br>
+              <p>Expérience très positive. Grâce à ce stage, j'ai gagné en <B>confiance</B> et en <B>autonomie</B> sur diverses tâches informatiques. Notamment en mettant à jour la base de données ordinateur/machine de l'usine. Ainsi que la rédaction d'une procédure détaillée pour l'installation des logiciels utiliser par les employés du bureau d'étude. Ces compétences acquises, me permettent d'avancer vite sur divers projets tout en prenant certaines initiatives.</p>
+            </li>
+          </div>
+          <div class="experience-img">
+            <img src="./images/experience.jpg" height="250px" width="350px" alt="experience" loading="lazy" />
+            <img src="./images/ville_angers.jpg" height="250px" width="350px" alt="ville d'angers" loading="lazy" />
+            <img src="./images/eram-logo.png" height="250px" width="350px" alt="eram logo" loading="lazy" />
+            <img src="./images/hutchinson.png" height="250px" width="350px" alt="hutchinson" loading="lazy" />
+        </div>
+      </section>
+
+      <!-- bénévole -->
+      <section id="benevole">
+        <div class="container-benevole">
+          <div class="benevole" id="benevole">
+            <h2><span>Mes </span> engagements <span> bénévoles</span></h2>
+            <li>
+              <h3>Coach d'une équipe de basket en U9 et U11 à Avrillé</h3>
+                    <p>Pour devenir coach de basket, il faut suivre une formation de la fédération de basket. À la suite de cette formation, on peut être invité par la fédération de basket pour divers événements en lien avec le basket. On peut aussi intervenir en tant que bénévole dans un club de basket. C'est ce que j'ai fait pour mon club de basket pendant 2 années en coachant une année des jeunes filles de 9 ans et une deuxième année des jeunes filles de 11 ans. Cette expérience a été très enrichissante. J'ai pue gagné en confiance, pédagogie, autorité, patience, maturité. Effectivement, à cet âge-là, il faut :  </p>
+                    <p>- Que les temps de jeu de chacun soient égaux. </p>
+                    <p>- Qu'elles apprennent les principes et concepts de jeu du basket, </p>
+                    <p>- Qu'il n'y ai pas d'incidents entre elles ou avec les adversaires, </p>
+                    <p>- Qu'elle applique ou essaie d'appliquer ce que je leur demande de faire. </p>
+                    <p>- Leur apprendre à respecter les adversaires, prendre en compte leurs sentiments ou situations.</p> 
+                    <p>- Gérer les parents. </p>
+                    <p>- Mettre de côté l'envie de victoire, car à ces âges-là le plus important reste de s'amuser.</p>
+                    <p>- Savoir quand être gentil, quand être "méchant". </p>
+                    <p>- etc ... </p>
+            </li>
+            <li>
+              <h3>Bénévole pour l'association AAT de l'ESAIP</h3>
+                  <p>AAT consiste à aider une fois par semaine (hors vacances scolaires) des lycéens en maths. Cela demande de la patience, de la pédagogie ainsi qu'un bon rapport à l'humain. Car s'ils ont choisi d'être avec nous, c'est parce qu'ils n'ont pas compris un sujet qu'ils ont déjà vu avec leurs professeurs. Effectivement, on leur apporte un soutien particulier pour faciliter leur compréhension du sujet abordé en expliquant avec des mots différents de ceux de leurs professeurs. Ce qui me permet dans mon travail d'expliquer clairement et simplement mon point de vue sur X tâche ou projet à exécuter.</p>
+            </li>
+            <li>
+              <h3>Bénévole pour ESAIP games</h3>
+                  <p></p> 
+            </li>
+            <li>
+              <h3>Joueur de basket en régionnale pendant 10ans pour Avrillé</h3>
+                  <p></p>
+            </li>
+          </div>
+          <div class="benevole-img">
+            <img src="./images/bénévole1.jpg" height="250px" width="350px" alt="benevole" loading="lazy" />
+            <img src="./images/benevole2.jpg" height="250px" width="350px" alt="benevole" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="container-contact">
+          <div class="contact" id="contact">
+            <h2><span>Mes </span> contacts</h2>
+              <li>
+                <h3>E-mail</h3>
+                <p><a
+                  href="mailto:Dorian.gillot@outlook.fr"
+                  target="_blank"
+                  class="email"
+                  aria-label="Email"
+                  rel="noopener"
+                  >Dorian.gillot@outlook.fr
+                </a></p>
+              </li>
+              <li>
+                <h3>Téléphone</h3>
+                <p>+33 06 33 50 52 20</p>
+              </li>
+          </div>
+          <div class="student-img">
+            <img
+              src="./images/contact.jpg"
+              height="250px"
+              width="350px"
+              alt="guy with laptop on a desk"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="socials" id="socials">
+          <ul>
+            <li>
+              <a
+                href="https://fr.linkedin.com/in/dorian-gillot-0b2a241a0"
+                target="_blank"
+                class="linkedin"
+                aria-label="LinkedIn"
+                rel="noopener"
+                >LinkedIn<i class="fi-snsuxl-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
